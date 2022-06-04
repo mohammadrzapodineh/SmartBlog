@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="92cf51d5-774b-4420-ba69-6e7e736c2a1d" name="Default Changelist" comment="" />
+    <list default="true" id="92cf51d5-774b-4420-ba69-6e7e736c2a1d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Blog/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blog/templates/Blog/post_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/templates/Blog/post_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartBlog/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/SmartBlog/settings.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,6 +18,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -38,10 +46,12 @@
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates/MainLayout" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../OnlineGameShop" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -55,11 +65,10 @@
   </component>
   <component name="RunManager">
     <configuration name="SmartBlog" type="Python.DjangoServer" factoryName="Django server">
-      <module name="SmartBlog" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="PYTHONUNBUFFERED" value="1PYTHONUNBUFFERED=1" />
         <env name="DJANGO_SETTINGS_MODULE" value="SmartBlog.settings" />
       </envs>
       <option name="SDK_HOME" value="C:\Users\mohammad\Desktop\Mywork\Projects\SmartBlog\venv\Scripts\python.exe" />
@@ -67,6 +76,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
       <EXTENSION ID="net.ashald.envfile">
         <option name="IS_ENABLED" value="false" />
         <option name="IS_SUBST" value="false" />
@@ -78,10 +88,10 @@
         </ENTRIES>
       </EXTENSION>
       <option name="launchJavascriptDebuger" value="false" />
-      <option name="port" value="8002" />
+      <option name="port" value="8000" />
       <option name="host" value="" />
       <option name="additionalOptions" value="" />
-      <option name="browserUrl" value="" />
+      <option name="browserUrl" value="http://127.0.0.1:8000/" />
       <option name="runTestServer" value="false" />
       <option name="runNoReload" value="false" />
       <option name="useCustomRunCommand" value="false" />
@@ -102,7 +112,11 @@
       <workItem from="1653383326225" duration="942000" />
       <workItem from="1653729643445" duration="2906000" />
       <workItem from="1653980231003" duration="295000" />
-      <workItem from="1654279804127" duration="5845000" />
+      <workItem from="1654279804127" duration="6718000" />
+      <workItem from="1654291181417" duration="358000" />
+      <workItem from="1654339307060" duration="20000" />
+      <workItem from="1654339374692" duration="1183000" />
+      <workItem from="1654340648319" duration="2458000" />
     </task>
     <servers />
   </component>
@@ -119,5 +133,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

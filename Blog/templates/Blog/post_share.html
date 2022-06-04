@@ -1,0 +1,15 @@
+{% extends "MainLayout/base.html" %}
+{% block title %}Share / {{ post.title }}{% endblock %}
+{% block content %}
+  {% if sent %}
+  <p> {{ post.title }} Sent Successfully To {{ form.cleaned_data.to }} </p>
+  {% else %}
+  <h1>share Post</h1>
+<form action="" method="post">
+  {% csrf_token %}
+  {{ form.as_p }}
+  <input type="submit" value="send Post !">
+</form>
+  {% endif %}
+
+{% endblock %}
