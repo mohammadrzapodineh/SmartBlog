@@ -1,5 +1,6 @@
 import os.path
 from pathlib import Path
+from turtle import back
 BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-x!(j8%eo3&00&zr2$pmld&ec9h8vi+(zo^%#)f=r7z=kf#9ep$'
 DEBUG = True
@@ -16,7 +17,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     # My apps
-    'Blog.apps.BlogConfig'
+    'Blog.apps.BlogConfig',
+    # Installed Apps
+    'taggit'
 ]
 
 MIDDLEWARE = [
@@ -96,7 +99,10 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.0/howto/static-files/
 
-STATIC_URL = 'static/'
+STATIC_URL = '/static/'
+STATICFILES_DIRS = [
+    BASE_DIR / "assets",
+]
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')

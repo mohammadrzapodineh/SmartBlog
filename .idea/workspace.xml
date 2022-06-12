@@ -2,12 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92cf51d5-774b-4420-ba69-6e7e736c2a1d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Blog/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blog/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blog/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blog/managers.py" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/managers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Blog/templates/Blog/post_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/templates/Blog/post_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blog/templates/Blog/post_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/templates/Blog/post_list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SmartBlog/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/SmartBlog/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/MainLayout/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/MainLayout/base.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +121,15 @@
       <workItem from="1654291181417" duration="358000" />
       <workItem from="1654339307060" duration="20000" />
       <workItem from="1654339374692" duration="1183000" />
-      <workItem from="1654340648319" duration="2458000" />
+      <workItem from="1654340648319" duration="8944000" />
+      <workItem from="1654684016255" duration="467000" />
+      <workItem from="1654687243624" duration="324000" />
+      <workItem from="1654705982435" duration="75000" />
+      <workItem from="1654764663628" duration="283000" />
+      <workItem from="1654774694070" duration="144000" />
+      <workItem from="1654873658037" duration="171000" />
+      <workItem from="1654981864288" duration="6000" />
+      <workItem from="1654981902452" duration="3000" />
     </task>
     <servers />
   </component>
