@@ -3,27 +3,24 @@
   <component name="ChangeListManager">
     <list default="true" id="92cf51d5-774b-4420-ba69-6e7e736c2a1d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blog/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blog/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Blog/managers.py" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/managers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blog/templates/Blog/post_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/templates/Blog/post_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blog/templates/Blog/post_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/templates/Blog/post_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blog/templatetags/blog_tags.py" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/templatetags/blog_tags.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SmartBlog/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/SmartBlog/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/MainLayout/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/MainLayout/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartBlog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/SmartBlog/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -43,6 +40,9 @@
       <scroll-view-position x="0" y="0" />
     </layout>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="29Wb5LVS983Uhuvk1ohqAmWRMwi" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -50,14 +50,14 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../OnlineGameShop" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/mohammad/Desktop/other_files/Mywork/Projects/SmartBlog"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\mohammad\Desktop\Mywork\Projects\SmartBlog\templates\MainLayout" />
@@ -70,33 +70,23 @@
   </component>
   <component name="RunManager">
     <configuration name="SmartBlog" type="Python.DjangoServer" factoryName="Django server">
+      <module name="SmartBlog" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
-        <env name="PYTHONUNBUFFERED" value="1PYTHONUNBUFFERED=1" />
+        <env name="PYTHONUNBUFFERED" value="1" />
         <env name="DJANGO_SETTINGS_MODULE" value="SmartBlog.settings" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\mohammad\Desktop\Mywork\Projects\SmartBlog\venv\Scripts\python.exe" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="" />
-      <EXTENSION ID="net.ashald.envfile">
-        <option name="IS_ENABLED" value="false" />
-        <option name="IS_SUBST" value="false" />
-        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
-        <option name="IS_IGNORE_MISSING_FILES" value="false" />
-        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
-        <ENTRIES>
-          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
-        </ENTRIES>
-      </EXTENSION>
       <option name="launchJavascriptDebuger" value="false" />
       <option name="port" value="8000" />
       <option name="host" value="" />
       <option name="additionalOptions" value="" />
-      <option name="browserUrl" value="http://127.0.0.1:8000/" />
+      <option name="browserUrl" value="" />
       <option name="runTestServer" value="false" />
       <option name="runNoReload" value="false" />
       <option name="useCustomRunCommand" value="false" />
@@ -130,6 +120,7 @@
       <workItem from="1654873658037" duration="171000" />
       <workItem from="1654981864288" duration="6000" />
       <workItem from="1654981902452" duration="3000" />
+      <workItem from="1656183302481" duration="1967000" />
     </task>
     <servers />
   </component>
@@ -146,6 +137,5 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
