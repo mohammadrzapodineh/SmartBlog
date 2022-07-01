@@ -4,7 +4,9 @@ from .models import Post
 from .forms import SharePostForm, CommentForm
 from taggit.models import Tag
 from django.core.mail import send_mail
+from django.contrib.postgres.search import SearchVector
 from django.db.models import Count
+
 
 class PostList(ListView):
     paginate_by = 6
@@ -67,3 +69,16 @@ def post_share(request, post_id):
         sent = True
     context = {'post': post, 'form': share_form, 'sent': sent}
     return render(request, 'Blog/post_share.html', context)
+
+
+def post_search(request):
+    query = request.GET.get('q')
+    context = {
+        'query': query
+    }
+    if query is not None:
+        posts = Post.objects.annotate(
+            search=SearchVector('title', 'body')
+        ).filter(search=query)
+        context['posts'] = posts
+    return render(request, 'Blog/post_search.html', context)

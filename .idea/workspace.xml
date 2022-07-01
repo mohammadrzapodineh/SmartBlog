@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="92cf51d5-774b-4420-ba69-6e7e736c2a1d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blog/managers.py" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/managers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blog/templatetags/blog_tags.py" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/templatetags/blog_tags.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SmartBlog/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/SmartBlog/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SmartBlog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/SmartBlog/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/MainLayout/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/MainLayout/base.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -52,10 +55,16 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/mohammad/Desktop/other_files/Mywork/Projects/SmartBlog"
+    "last_opened_file_path": "G:/Files/other_files/Mywork/Projects/SmartBlog",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -121,6 +130,11 @@
       <workItem from="1654981864288" duration="6000" />
       <workItem from="1654981902452" duration="3000" />
       <workItem from="1656183302481" duration="1967000" />
+      <workItem from="1656187024575" duration="102000" />
+      <workItem from="1656677071353" duration="1759000" />
+      <workItem from="1656678895152" duration="2245000" />
+      <workItem from="1656683404071" duration="407000" />
+      <workItem from="1656702713594" duration="2410000" />
     </task>
     <servers />
   </component>

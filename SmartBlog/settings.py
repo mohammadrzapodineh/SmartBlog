@@ -18,6 +18,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'django.contrib.sites',
     'django.contrib.sitemaps',
+    'django.contrib.postgres',
     # My apps
     'Blog.apps.BlogConfig',
     # Installed Apps
@@ -61,8 +62,10 @@ WSGI_APPLICATION = 'SmartBlog.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'blog_db',
+        'USER': 'postgres',
+        'PASSWORD': 'mohammad0921'
     }
 }
 
