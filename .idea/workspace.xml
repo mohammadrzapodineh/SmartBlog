@@ -6,10 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="92cf51d5-774b-4420-ba69-6e7e736c2a1d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blog/managers.py" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/managers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SmartBlog/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/SmartBlog/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/MainLayout/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/MainLayout/base.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,20 +51,20 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "G:/Files/other_files/Mywork/Projects/SmartBlog",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;G:/Files/other_files/Mywork/Projects/SmartBlog&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\mohammad\Desktop\Mywork\Projects\SmartBlog\templates\MainLayout" />
@@ -134,7 +132,11 @@
       <workItem from="1656677071353" duration="1759000" />
       <workItem from="1656678895152" duration="2245000" />
       <workItem from="1656683404071" duration="407000" />
-      <workItem from="1656702713594" duration="2410000" />
+      <workItem from="1656702713594" duration="3500000" />
+      <workItem from="1656929337298" duration="2859000" />
+      <workItem from="1657046234286" duration="2989000" />
+      <workItem from="1657634892436" duration="25000" />
+      <workItem from="1657635030008" duration="59000" />
     </task>
     <servers />
   </component>

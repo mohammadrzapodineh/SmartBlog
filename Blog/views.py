@@ -1,17 +1,19 @@
-from django.views.generic import ListView, DetailView
-from django.shortcuts import render, get_object_or_404, redirect, get_list_or_404
+from django.views.generic import ListView
+from django.shortcuts import render, get_object_or_404, get_list_or_404
 from .models import Post
 from .forms import SharePostForm, CommentForm
 from taggit.models import Tag
 from django.core.mail import send_mail
-from django.contrib.postgres.search import SearchVector
+from django.contrib.postgres.search import SearchVector, SearchQuery, SearchRank
 from django.db.models import Count
+
 
 
 class PostList(ListView):
     paginate_by = 6
     context_object_name = 'posts'
     template_name = 'Blog/post_list.html'
+
     def get_queryset(self):
         object_list = Post.published.all()
         tag_slug = self.kwargs.get('tag')
@@ -24,6 +26,7 @@ class PostList(ListView):
                 object_list = object_list.filter(tags__in=tag_list)
             
         return object_list
+
     def get_context_data(self):
         context = super(PostList, self).get_context_data()
         tag_slug = self.kwargs.get('tag')
@@ -31,7 +34,8 @@ class PostList(ListView):
             tag = get_object_or_404(Tag, slug=tag_slug)
             context['tag'] = tag
         return context
-        
+
+
 def post_detail(request, year, month, day, post_slug):
     post = get_object_or_404(Post,
                              slug=post_slug,
@@ -76,9 +80,12 @@ def post_search(request):
     context = {
         'query': query
     }
+
     if query is not None:
+        search_vector = SearchVector('title', weight='A') + SearchVector('body', weight='B')
+        search_query = SearchQuery(query)
         posts = Post.objects.annotate(
-            search=SearchVector('title', 'body')
-        ).filter(search=query)
+            rank=SearchRank(search_vector, search_query)
+        ).order_by('-rank')
         context['posts'] = posts
     return render(request, 'Blog/post_search.html', context)

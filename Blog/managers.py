@@ -15,5 +15,5 @@ class BlogManager(Manager):
     def get_last_posts(self):
         return self.get_queryset().order_by('-publish')
 
-    def get_popular_posts(self,count=5):
+    def get_popular_posts(self, count=5):
         return self.get_queryset().annotate(total_comments=Count('comments')).order_by('-total_comments').exclude(total_comments=0).distinct()[:count]
