@@ -1,0 +1,44 @@
+services:
+  web:
+    build: .
+    container_name: 'smart_blog'
+    restart: always
+    depends_on:
+      - db
+    command: bash -c "python manage.py migrate && python manage.py runserver 0.0.0.0:8000"
+    expose:
+      - 8000
+    volumes:
+      - . :/code/
+      - app_static_volume:/code/static/
+      - app_media_volume:/code/media/
+    ports:
+      - "8000:8000"
+    networks:
+      - main
+      - nginx_network
+  db:
+    image: postgres:14.4
+    container_name: "db_smart_web"
+    volumes:
+      - postgres_volume:/var/lib/postgresql/data/
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=mohammad0921
+      - POSTGRES_DB=blog_db
+    networks:
+      - main
+
+
+networks:
+  main:
+  nginx_network:
+    external: true
+
+
+volumes:
+  postgres_volume:
+  app_media_volume:
+    external: true
+  app_static_volume:
+    external: true

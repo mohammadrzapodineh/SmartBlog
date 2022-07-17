@@ -3,10 +3,10 @@ from pathlib import Path
 from turtle import back
 BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-x!(j8%eo3&00&zr2$pmld&ec9h8vi+(zo^%#)f=r7z=kf#9ep$'
-DEBUG = True
+DEBUG = False
 
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost', '127.0.0.1']
 SITE_ID = 1
 
 INSTALLED_APPS = [
@@ -65,7 +65,8 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'blog_db',
         'USER': 'postgres',
-        'PASSWORD': 'mohammad0921'
+        'PASSWORD': 'mohammad0921',
+        'HOST': 'db'
     }
 }
 
@@ -105,9 +106,6 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.0/howto/static-files/
 
 STATIC_URL = '/static/'
-STATICFILES_DIRS = [
-    BASE_DIR / "assets",
-]
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')

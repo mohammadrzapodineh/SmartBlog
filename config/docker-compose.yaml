@@ -1,0 +1,23 @@
+services:
+  nginx:
+    build: .
+    container_name: nginx_container
+    ports:
+      - "80:80"
+    volumes:
+      - app_static_volume:/code/static/
+      - app_media_volume:/code/media/
+    networks:
+      - nginx_network
+
+
+
+volumes:
+  app_media_volume:
+    external: true
+  app_static_volume:
+    external: true
+  
+networks:
+  nginx_network:
+    external: true
